@@ -1,0 +1,36 @@
+.Input {
+    margin-bottom: 20px;
+}
+.Input label {
+    margin-bottom: 10px;
+    padding: 0;
+    display: block;
+    color: #ffffff;
+}
+.Input input {
+    display: block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+}
+.Input span {
+    color: #ffffff;
+    background: #f0576c;
+    font-size: 12px;
+    display: inline-block;
+    padding: 6px 10px;
+    font-weight: bold;
+}
+
+.Input.invalid label:after {
+    content: "*";
+    background: #f0576c;
+    color: #ffffff;
+    margin-left: 6px;
+}
